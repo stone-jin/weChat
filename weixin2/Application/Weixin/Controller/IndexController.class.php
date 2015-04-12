@@ -67,6 +67,7 @@ class IndexController extends Controller {
 	 * 重写的消息回复方法
 	 */
 	private function response($content) {
-		$this->weixin->response($content);
+		//$this->weixin->response($content);
+		$this->weixin->response("<a href='http://121.40.224.245/weixin2/2/'>".$content."</a>");
 	} 
 }
