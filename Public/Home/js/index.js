@@ -4,6 +4,7 @@ $(function($){
 	$("body").width(width);
 	$("body").height(height);
 
-	var line_height = $(".test_block").height();
-	$(".test_block_nav").css("line-height", line_height+"px");
+	//var line_height = $(".test_block").height();
+	//$(".test_block_nav").css("line-height", line_height+"px");
 });
+

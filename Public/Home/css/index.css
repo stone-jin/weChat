@@ -9,18 +9,18 @@
 
 body{
 	width: 100%;
-	background: #FFFFFF;
+	background: #F2F2F2;
 }
 
 .top{
 	width: 100%;
-	height: 92%;
+	height: 90%;
 	background: #FFFFFF;
 }
 
 .test{
 	width: 100%;
-	height: 8%;
+	height: 10%;
 	margin-top: 2px;
 	background: #2B2B2B;
 	position: table;
@@ -35,18 +35,21 @@ body{
 	cursor: pointer;
 }
 
-.test .test_block span{
+.test .test_block img{
+	width: 45px;
+	height: 45px;
+	float: top;
+	display: block;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+
+.test .test_block a{
 	width: 100%;
-	height: 100%;
+	height: 20px;
+	line-height: 20px;
 	color: #DADADA;
 	display: block;
 	text-align: center;
-}
-
-.test .test_block span:hover{
-	width: 100%;
-	height: 100%;
-	color: #ff0000;
-	display: block;
-	text-align: center;
+	font-size: 15px;
 }
